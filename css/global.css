@@ -2,6 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
+  color: #335576;
 }
 
 nav {
@@ -10,7 +11,6 @@ nav {
 
 .top-nav {
   background-color: #FFFFFF;
-  color: #335576;
   display: flex;
   justify-content: space-between;
   margin: 0 40px;
@@ -27,6 +27,23 @@ nav {
 }
 .top-nav__specific-link {
   text-decoration: none;
-  color: #335576;
   margin: 0 10px;
+}
+
+.site-footer {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.site-footer__general-text {
+  color: #DB7A4E;
+}
+.site-footer__hours {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.site-footer__hours--specific {
+  margin-right: 20px;
 }/*# sourceMappingURL=global.css.map */

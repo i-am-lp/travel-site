@@ -2,6 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
+  color: #335576;
 }
 
 nav {
@@ -10,7 +11,6 @@ nav {
 
 .top-nav {
   background-color: #FFFFFF;
-  color: #335576;
   display: flex;
   justify-content: space-between;
   margin: 0 40px;
@@ -30,12 +30,31 @@ nav {
 
 .top-nav__specific-link {
   text-decoration: none;
-  color: #335576;
   margin: 0 10px;
+}
+
+.recommendations {
+  display: flex;
+  text-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.recommendations__card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+}
+
+.recommendations__card--copy {
+  position: absolute;
+}
+
+.recommendations__card--image {
+  width: 300px;
 } 
 .hero {
   background-color: #FEFAF5;
-  color: #335576;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,4 +83,22 @@ nav {
   padding: 0 40px;
   border-radius: 30px;
   font-size: 1rem;
+}
+
+.recommendations {
+  display: flex;
+  text-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.recommendations__card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+}
+.recommendations__card--copy {
+  position: absolute;
+}
+.recommendations__card--image {
+  width: 300px;
 }/*# sourceMappingURL=main.css.map */
