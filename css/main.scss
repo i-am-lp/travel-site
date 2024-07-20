@@ -43,14 +43,14 @@
 
     &__total-cards {
     display: flex;
-    text-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     }
 
     &__card {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-        border-radius: 5px;
         position: relative;
 
         &--copy {
@@ -66,9 +66,23 @@
 
         &--image {
             width: 300px;
+            height: 500px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
 
             &--hawaii {
                 background-image: url(../assets/Images/hawaii.jpg);
+                background-size: cover; 
+            }
+
+            &--iceland {
+                background-image: url(../assets/Images/iceland.jpg);
+                background-size: cover; 
+            }
+
+            &--greece {
+                background-image: url(../assets/Images/greece.jpg);
                 background-size: cover; 
             }
         }
