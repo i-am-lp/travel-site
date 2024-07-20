@@ -1,11 +1,14 @@
-.recommendations {
+.hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 40px;
-  margin: 20px 40px;
 }
-.recommendations__header {
-  font-size: 1.5rem;
+.hawaii__header {
+  color: #FFFFFF;
+  font-size: 4rem;
 }
-.recommendations__total-cards {
+.hawaii__total-cards {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -13,10 +16,10 @@
   margin: 0;
   padding: 0;
 }
-.recommendations__card {
+.hawaii__card {
   position: relative;
 }
-.recommendations__card--copy {
+.hawaii__card--copy {
   position: absolute;
   z-index: 9;
   bottom: 15px;
@@ -26,22 +29,10 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
-.recommendations__card--image {
+.hawaii__card--image {
   width: 330px;
   height: 450px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-}
-.recommendations__card--image--hawaii {
-  background-image: url(../assets/Images/hawaii.jpg);
-  background-size: cover;
-}
-.recommendations__card--image--iceland {
-  background-image: url(../assets/Images/iceland.jpg);
-  background-size: cover;
-}
-.recommendations__card--image--greece {
-  background-image: url(../assets/Images/greece.jpg);
-  background-size: cover;
 }/*# sourceMappingURL=destinations.css.map */

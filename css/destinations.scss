@@ -1,9 +1,12 @@
-.recommendations {
+.hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 40px;
-    margin: 20px 40px;
 
     &__header {
-        font-size: 1.5rem;
+        color: #FFFFFF;
+        font-size: 4rem;
     }
 
     &__total-cards {
@@ -35,21 +38,6 @@
             border: 1px solid rgba(0, 0, 0, 0.2);
             box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
-
-            &--hawaii {
-                background-image: url(../assets/Images/hawaii.jpg);
-                background-size: cover; 
-            }
-
-            &--iceland {
-                background-image: url(../assets/Images/iceland.jpg);
-                background-size: cover; 
-            }
-
-            &--greece {
-                background-image: url(../assets/Images/greece.jpg);
-                background-size: cover; 
-            }
         }
     
     }
