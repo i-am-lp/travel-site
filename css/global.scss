@@ -30,6 +30,22 @@ nav {
     &__specific-link {
         text-decoration: none;
         margin: 0 10px;
+
+        &--home {
+            border-bottom: 2px solid #DB7A4E;
+        }
+
+        &--hawaii {
+            border-bottom: 2px solid #DB7A4E;
+        }
+
+        &--iceland {
+            border-bottom: 2px solid #DB7A4E;
+        }
+
+        &--greece {
+            border-bottom: 2px solid #DB7A4E;
+        }
     }
 }
 

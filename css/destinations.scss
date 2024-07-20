@@ -8,11 +8,18 @@
     }
 
     &--iceland{
-        background-image: url(../assets/Images/iceland.jpg);
-        background-size: cover;
-        background-position: center;
-        padding: 40px;
-        }
+    background-image: url(../assets/Images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    }
+
+    &--greece{
+    background-image: url(../assets/Images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    }
 
     &__header {
         color: #FFFFFF;

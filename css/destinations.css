@@ -10,6 +10,12 @@
   background-position: center;
   padding: 40px;
 }
+.destinations--greece {
+  background-image: url(../assets/Images/greece.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}
 .destinations__header {
   color: #FFFFFF;
   font-size: 4rem;

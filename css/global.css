@@ -29,6 +29,18 @@ nav {
   text-decoration: none;
   margin: 0 10px;
 }
+.top-nav__specific-link--home {
+  border-bottom: 2px solid #DB7A4E;
+}
+.top-nav__specific-link--hawaii {
+  border-bottom: 2px solid #DB7A4E;
+}
+.top-nav__specific-link--iceland {
+  border-bottom: 2px solid #DB7A4E;
+}
+.top-nav__specific-link--greece {
+  border-bottom: 2px solid #DB7A4E;
+}
 
 .site-footer {
   background-color: #FEFAF5;
