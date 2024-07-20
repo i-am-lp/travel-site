@@ -20,24 +20,33 @@
 
     &__card {
         position: relative;
+        background-color: #FFFFFF;
+        color: black;
+        width: 330px;
+        height: 450px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
 
-        &--copy {
-            position: absolute;
-            z-index: 9;
-            bottom: 15px;
-            right: 15px;
-            text-decoration: none;
-            color: #FFFFFF;
-            font-size: 1.5rem;
+        &--title {
             font-weight: 600;
+            text-align: center;
+            border-bottom: 1.5px solid black;
+            margin: 20px;
         }
+        
+        &--itinerary {
+            list-style: none;
+            background-color: #FEFAF5;
+            padding: 0;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-        &--image {
-            width: 330px;
-            height: 450px;
-            border: 1px solid rgba(0, 0, 0, 0.2);
-            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-            border-radius: 5px;
+            &--specific {
+                margin-bottom: 40px;
+            }
         }
     
     }
