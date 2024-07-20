@@ -39,10 +39,14 @@
 }
 
 .recommendations {
+    padding: 20px;
+
+    &__total-cards {
     display: flex;
     text-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    }
 
     &__card {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
@@ -51,10 +55,23 @@
 
         &--copy {
             position: absolute;
+            z-index: 9;
+            bottom: 15px;
+            right: 15px;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 1.5rem;
+            font-weight: 600;
         }
-        
+
         &--image {
             width: 300px;
+
+            &--hawaii {
+                background-image: url(../assets/Images/hawaii.jpg);
+                background-size: cover; 
+            }
         }
+    
     }
 }
