@@ -1,8 +1,18 @@
-.hawaii {
+.destinations {
+
+    &--hawaii{
     background-image: url(../assets/Images/hawaii.jpg);
     background-size: cover;
     background-position: center;
     padding: 40px;
+    }
+
+    &--iceland{
+        background-image: url(../assets/Images/iceland.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 40px;
+        }
 
     &__header {
         color: #FFFFFF;
