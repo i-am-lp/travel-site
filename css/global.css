@@ -38,12 +38,37 @@ nav {
 }
 .site-footer__general-text {
   color: #DB7A4E;
+  font-size: 0.6rem;
+}
+.site-footer--general-hours {
+  width: 33vw;
 }
 .site-footer__hours {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .site-footer__hours--specific {
   margin-right: 20px;
+}
+.site-footer__information {
+  font-size: 0.85rem;
+}
+
+.socials {
+  width: 8vw;
+}
+.socials__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socials--specific {
+  text-decoration: none;
+}
+.socials--img {
+  width: 25px;
+}
+.socials--img--fb {
+  width: 13px;
 }/*# sourceMappingURL=global.css.map */

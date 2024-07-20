@@ -41,15 +41,46 @@ nav {
 
     &__general-text {
         color: #DB7A4E;
+        font-size: .6rem;
+    }
+
+    &--general-hours {
+        width: 33vw;
     }
 
     &__hours {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
 
         &--specific {
             margin-right: 20px;
+        }
+    }
+
+    &__information {
+        font-size: .85rem;
+    }
+}
+
+.socials {
+    width: 8vw;
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &--specific {
+    text-decoration: none;
+    }
+
+    &--img {
+        width: 25px;
+
+        &--fb {
+            width: 13px;
         }
     }
 }
