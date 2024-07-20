@@ -27,6 +27,7 @@
   border-radius: 5px;
 }
 .hawaii__card--title {
+  font-size: 1.25rem;
   font-weight: 600;
   text-align: center;
   border-bottom: 1.5px solid black;
@@ -34,13 +35,14 @@
 }
 .hawaii__card--itinerary {
   list-style: none;
-  background-color: #FEFAF5;
   padding: 0;
   margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hawaii__card--itinerary--specific {
-  margin-bottom: 40px;
+.hawaii__card--itinerary--background-color {
+  background-color: #FEFAF5;
+  width: 100%;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=destinations.css.map */

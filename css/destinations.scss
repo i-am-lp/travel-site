@@ -29,6 +29,7 @@
         border-radius: 5px;
 
         &--title {
+            font-size: 1.25rem;
             font-weight: 600;
             text-align: center;
             border-bottom: 1.5px solid black;
@@ -37,15 +38,16 @@
         
         &--itinerary {
             list-style: none;
-            background-color: #FEFAF5;
             padding: 0;
             margin: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            &--specific {
-                margin-bottom: 40px;
+            &--background-color {
+                background-color: #FEFAF5;
+                width: 100%;
+                margin-bottom: 20px;
             }
         }
     
