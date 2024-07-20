@@ -39,11 +39,16 @@
 }
 
 .recommendations {
-    padding: 20px;
+    padding: 40px;
+    margin: 20px 40px;
+
+    &__header {
+        font-size: 1.5rem;
+    }
 
     &__total-cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     margin: 0;
@@ -65,8 +70,8 @@
         }
 
         &--image {
-            width: 300px;
-            height: 500px;
+            width: 330px;
+            height: 450px;
             border: 1px solid rgba(0, 0, 0, 0.2);
             box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
