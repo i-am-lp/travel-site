@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Site</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
 <header>
     <nav>
         <section class="top-nav">
+            <a class="top-nav__left" href="/index.html">
             <div class="top-nav__left">
                 <p>Travel Site</p>
             </div>
+            </a>
             <div class="top-nav__right">
-                <ul class="">
-                    <li><a class="nav__specific-link" href="#">Home</a></li>
-                    <li><a class="nav__specific-link" href="#">Hawaii</a></li>
-                    <li><a class="nav__specific-link" href="#">Iceland</a></li>
-                    <li><a class="nav__specific-link" href="#">Greece</a></li>
+                <ul class="top-nav__right">
+                    <li><a class="top-nav__specific-link top-nav__specific-link--home" href="/index.html">Home</a></li>
+                    <li><a class="top-nav__specific-link" href="/pages/hawaii.html">Hawaii</a></li>
+                    <li><a class="top-nav__specific-link" href="/pages/iceland.html">Iceland</a></li>
+                    <li><a class="top-nav__specific-link" href="/pages/greece.html">Greece</a></li>
                 </ul>
             </div>
         </section>
         <section class="hero">
             <div class="hero-header">
                 <h1 class="hero-header__copy">Traveling Comes With Endless Discoveries</h1>
-                <p class="hero-header__copy hero-header__copy--paragraph">
+                <p class="hero-header__copy--paragraph">
                 Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.
                 </p>
-                <button class="button hero-header__copy hero-header__copy--button" type="button">
+                <button class="button hero-header__copy--button" type="button">
                     <p>Get Started</p>
                 </button>
             </div>
@@ -39,54 +43,70 @@
 </header>
 <main>
     <div class="recommendations">
-        <h3>Recommendations</h3>
-        <a class="recommendations__card--link" href="#">
-            <div class="recommendations__card">
-                <img class="recommendations__card--image" src="./assets/Images/hawaii.jpg" alt="A beautiful ocean front" />
-                <span class="recommendations__card--copy">Hawaii</span>
-            </div>
-        </a>
-        <a class="recommendations__card--link" href="#">
-            <div class="recommendations__card">
-                <img class="recommendations__card--image" src="./assets/Images/iceland.jpg" alt="Green mountains with a river running through" />
-                <span class="recommendations__card--copy">Iceland</span>
-            </div>
-        </a>
-        <a class="recommendations__card--link" href="#">
-            <div class="recommendations__card">
-                <img class="recommendations__card--image" src="./assets/Images/greece.jpg" alt="An ancient grecian structure" />
-                <span class="recommendations__card--copy">Greece</span>
-            </div>
-        </a>
+        <h3 class="recommendations__header">Recommendations</h3>
+        <ul class="recommendations__total-cards">
+            <a class="recommendations__card--link" href="/pages/hawaii.html">
+                <div class="recommendations__card">
+                    <li class="recommendations__card--image recommendations__card--image--hawaii">
+                    <span class="recommendations__card--copy">Hawaii</span>
+                    </li>
+                </div>
+            </a>
+            <a class="recommendations__card--link" href="/pages/iceland.html">
+                <div class="recommendations__card">
+                    <li class="recommendations__card--image recommendations__card--image--iceland">
+                    <span class="recommendations__card--copy">Iceland</span>
+                    </li>
+                </div>
+            </a>
+            <a class="recommendations__card--link" href="/pages/greece.html">
+                <div class="recommendations__card">
+                    <li class="recommendations__card--image recommendations__card--image--greece">
+                    <span class="recommendations__card--copy">Greece</span>
+                    </li>
+                </div>
+            </a>
+        </ul>
     </div>
 </main>
 <footer>
     <div class="site-footer">
-        <section class="contact"></section>
+        <div class="contact">
             <h3 class="site-footer__heading">Contact</h3>
             <p class="site-footer__general-text">EMAIL</p>
             <p class="site-footer__information">info@travelsite.com</p>
-        </section>
-        <section class="hours">
+        </div>
+        <div class="site-footer--general-hours">
             <h3 class="site-footer__heading">Hours</h3>
+            <div class="site-footer__hours">
+            <span class="site-footer__hours-specific">
             <p class="site-footer__general-text">MONDAY - FRIDAY</p>
             <p class="site-footer__information">9:00 AM - 5:00 PM</p>
+            </span>
+            <span class="site-footer__hours-specific">
             <p class="site-footer__general-text">SATURDAY</p>
             <p class="site-footer__information">10:00 AM - 4:00 PM</p>
+            </span>
+            <span class="site-footer__hours-specific">
             <p class="site-footer__general-text">SUNDAY</p>
             <p class="site-footer__information">Closed</p>
-        </section>
-        <section class="socials">
-            <a href="http://www.instagram.com" class="socials">
+            </span>
+            </div>
+        </div>
+        <div class="socials">
+            <h3 class="site-footer__heading">Socials</h3>
+            <div class="socials__links">
+            <a href="http://www.instagram.com" class="socials--specific">
                 <img src="./assets/Images/icon-instagram.png" alt="Instagram" class="socials--img" />
             </a>
-            <a href="http://www.facebook.com" class="socials">
-                <img src="./assets/Images/icon-facebook.png" alt="Facebook" class="socials--img"/>
+            <a href="http://www.facebook.com" class="socials--specific">
+                <img src="./assets/Images/icon-facebook.png" alt="Facebook" class="socials--img--fb"/>
             </a>
-            <a href="#" class="socials">
+            <a href="https://x.com" class="socials--specific">
                 <img src="./assets/Images/icon-twitter.png" alt="Twitter" class="socials--img" />
             </a>
-        </section>
+            </div>
+        </div>
     </div>
 
 </footer>

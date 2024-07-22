@@ -1,1 +1,186 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #335576;
+}
+
+nav {
+  list-style: none;
+}
+
+.top-nav {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.top-nav__left {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.top-nav__right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.top-nav__specific-link {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.top-nav__specific-link--home {
+  border-bottom: 2px solid #DB7A4E;
+}
+
+.top-nav__specific-link--hawaii {
+  border-bottom: 2px solid #DB7A4E;
+}
+
+.top-nav__specific-link--iceland {
+  border-bottom: 2px solid #DB7A4E;
+}
+
+.top-nav__specific-link--greece {
+  border-bottom: 2px solid #DB7A4E;
+}
+
+.top-nav__specific-link:hover {
+  background-color: rgba(219, 122, 78, 0.3);
+}
+
+.site-footer {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.site-footer__general-text {
+  color: #DB7A4E;
+  font-size: 0.6rem;
+}
+
+.site-footer--general-hours {
+  width: 33vw;
+}
+
+.site-footer__hours {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer__hours--specific {
+  margin-right: 20px;
+}
+
+.site-footer__information {
+  font-size: 0.85rem;
+}
+
+.socials {
+  width: 8vw;
+}
+
+.socials__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials--specific {
+  text-decoration: none;
+}
+
+.socials--img {
+  width: 25px;
+}
+
+.socials--img--fb {
+  width: 13px;
+} 
+.hero {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+}
+.hero-header {
+  margin: 10px;
+  width: 45%;
+}
+.hero-header__image {
+  width: 400px;
+}
+.hero-header__copy {
+  text-align: left;
+  font-size: 2.25rem;
+  width: 90%;
+}
+.hero-header__copy--paragraph {
+  font-weight: 100;
+}
+.hero-header__copy--button {
+  background-color: #DB7A4E;
+  color: #FFFFFF;
+  border: none;
+  padding: 0 40px;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+.recommendations {
+  padding: 40px;
+  margin: 20px 40px;
+}
+.recommendations__header {
+  font-size: 1.5rem;
+}
+.recommendations__total-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.recommendations__card {
+  position: relative;
+}
+.recommendations__card--copy {
+  position: absolute;
+  z-index: 9;
+  bottom: 15px;
+  right: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.recommendations__card--image {
+  width: 330px;
+  height: 450px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.recommendations__card--image--hawaii {
+  background-image: url(../assets/Images/hawaii.jpg);
+  background-size: cover;
+}
+.recommendations__card--image--iceland {
+  background-image: url(../assets/Images/iceland.jpg);
+  background-size: cover;
+}
+.recommendations__card--image--greece {
+  background-image: url(../assets/Images/greece.jpg);
+  background-size: cover;
+}/*# sourceMappingURL=main.css.map */
