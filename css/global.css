@@ -17,6 +17,7 @@ nav {
 }
 .top-nav__left {
   font-weight: 600;
+  text-decoration: none;
 }
 .top-nav__right {
   display: flex;
@@ -40,6 +41,9 @@ nav {
 }
 .top-nav__specific-link--greece {
   border-bottom: 2px solid #DB7A4E;
+}
+.top-nav__specific-link:hover {
+  background-color: rgba(219, 122, 78, 0.3);
 }
 
 .site-footer {

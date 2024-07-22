@@ -17,6 +17,7 @@ nav {
 
     &__left {
         font-weight: 600;
+        text-decoration: none;
     }
 
     &__right {
@@ -45,6 +46,10 @@ nav {
 
         &--greece {
             border-bottom: 2px solid #DB7A4E;
+        }
+
+        &:hover {
+            background-color: rgb(219, 122, 78, 0.3);
         }
     }
 }
