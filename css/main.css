@@ -18,6 +18,7 @@ nav {
 
 .top-nav__left {
   font-weight: 600;
+  text-decoration: none;
 }
 
 .top-nav__right {
@@ -31,6 +32,26 @@ nav {
 .top-nav__specific-link {
   text-decoration: none;
   margin: 0 10px;
+}
+
+.top-nav__specific-link--home {
+  border-bottom: 2px solid #DB7A4E;
+}
+
+.top-nav__specific-link--hawaii {
+  border-bottom: 2px solid #DB7A4E;
+}
+
+.top-nav__specific-link--iceland {
+  border-bottom: 2px solid #DB7A4E;
+}
+
+.top-nav__specific-link--greece {
+  border-bottom: 2px solid #DB7A4E;
+}
+
+.top-nav__specific-link:hover {
+  background-color: rgba(219, 122, 78, 0.3);
 }
 
 .site-footer {
